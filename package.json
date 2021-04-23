@@ -1,19 +1,20 @@
 {
-  "name": "chatroom",
+  "name": "static-files",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/lisab1993/Chatroom.git"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch-server": "npx nodemon index.js"
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/lisab1993/Chatroom/issues"
+  "devDependencies": {
+    "nodemon": "^2.0.4"
   },
-  "homepage": "https://github.com/lisab1993/Chatroom#readme"
+  "dependencies": {
+    "http-hash-router": "^2.0.1",
+    "live-server": "^1.2.1",
+    "st": "^2.0.0"
+  }
 }
