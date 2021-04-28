@@ -73,6 +73,7 @@ function getMessages(req, res) {
         console.log(JSON.parse(el))
         let parsed = JSON.parse(el)
         messages.push(parsed)
+        console.log(messages)
       })
       console.log("messages" + messages)
       res.writeHead(200, { 'Content-Type': 'application/json' })
